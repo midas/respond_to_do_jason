@@ -16,6 +16,14 @@ end
 
 # USER DEFINED
 
+group :development do
+  gem 'mongrel'
+end
+
+group :development, :test do
+  gem 'ruby-debug'
+end
+
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Specify additional Refinery CMS Engines here (all optional):
