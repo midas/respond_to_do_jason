@@ -55,6 +55,7 @@ GEM
     globalize3 (0.1.0)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
+    haml (3.1.2)
     i18n (0.5.0)
     linecache (0.46)
       rbx-require-relative (> 0.0.4)
@@ -174,9 +175,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml
   mongrel
   refinerycms (~> 1.0.4)
-  refinerycms-blog (~> 1.6)
-  refinerycms-i18n (~> 1.0.0)
+  refinerycms-blog
+  refinerycms-i18n
   ruby-debug
   sqlite3-ruby
