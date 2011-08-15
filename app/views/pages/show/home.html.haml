@@ -1,0 +1,39 @@
+!!! 5
+/[if lt IE 7 ] <html lang="en" class="no-js ie6">
+/[if IE 7 ] <html lang="en" class="no-js ie7">
+/[if IE 8 ] <html lang="en" class="no-js ie8">
+/[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--
+%head
+	%meta{:charset => "utf-8"}
+	%title Jason Harrelson
+
+	= javascript_include_tag 'modernizr-custom'
+
+	= stylesheet_link_tag 'app'
+
+%body
+	#page
+		#header
+			%hgroup{:id => "logo"}
+				%h1 Jason Harrelson
+				%h2 Software Architect &amp; Developer
+
+			#nav
+				%h1 Navigation
+				%ul
+					%li.portfolio
+						%a{:href => '#/portfolio'}
+							%b
+							%span Portfolio
+					%li.about
+						%a{:href => '#/about-me'}
+							%b
+							%span About me
+					%li.contact
+						%a{:href => '#/contact-me'}
+							%b
+							%span Contact me
+
+			/ About Page
+			%article{:id => "about", :class => "page"}
+				%header
