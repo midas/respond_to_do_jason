@@ -323,7 +323,7 @@ hr {
  *
  * =============================================== */
 .old-sprite, .ns-capsule, #nav .about a, #about .downloads .vcard a, #about .downloads .resume a, #contact .form .buttons button > span, .ns-capsule_left, #nav .about b, #about .downloads .vcard b, #about .downloads .resume b, #contact .form .buttons button > span b, .ns-capsule_middle, #nav .about span, #about .downloads .vcard span, #about .downloads .resume span, #contact .form .buttons button > span span, .ns-lava, #portfolio .filter, .ns-lava_left, #portfolio .filter > b, .ns-lava_middle, #portfolio .filter ul, .ns-lava_thumb, #portfolio .filter .thumb, .ns-lava_thumb_left, #portfolio .filter .thumb b, .ns-lava_thumb_middle, #portfolio .filter .thumb span, .ns-tictoc, .project .back, #about .back, .ns-bandage, #about .skills dd, .ns-bandage_left, #about .skills dd b {
-  background: url('../img/old-s5bb7bc14b0.png') no-repeat; }
+  background: url('../images/old-s5bb7bc14b0.png') no-repeat; }
 
 .modern-sprite, .ns-drop-down, .ns-drop-up, #nav .contact,
 #nav .portfolio-back, #nav .portfolio,
@@ -334,7 +334,7 @@ hr {
 #nav .contact-back b, .ns-drop-down_middle, .ns-drop-up_middle, #nav .contact span,
 #nav .portfolio-back span, #nav .portfolio span,
 #nav .contact-back span, .ns-dotted-nav_prev, #portfolio .pagination .prev, .ns-dotted-nav_next, #portfolio .pagination .next, .ns-dotted-nav_num, #portfolio .pagination .num, .ns-tooltip_harrow, .project .tooltip .arrow, #about .tooltip .arrow, .ns-tooltip_varrow, #contact .social .tooltip .arrow, .footer .back-to-top {
-  background: url('../img/modern-s589be641a6.png') no-repeat; }
+  background: url('../images/modern-s589be641a6.png') no-repeat; }
 
 /* ===============================================
  *
@@ -678,12 +678,12 @@ hr {
     -ms-border-radius: 38px;
     -khtml-border-radius: 38px;
     border-radius: 38px;
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.09))), url('../img/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../img/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../img/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../img/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
-    background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../img/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../img/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.09))), url('../images/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../images/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../images/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../images/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
+    background: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../images/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)), url('../images/modern-s589be641a6.png') 22px -80px no-repeat #f1f3f9;
     -moz-box-shadow: inset 0 1px white, 0 2px 3px rgba(0, 0, 0, 0.28);
     -webkit-box-shadow: inset 0 1px white, 0 2px 3px rgba(0, 0, 0, 0.28);
     -o-box-shadow: inset 0 1px white, 0 2px 3px rgba(0, 0, 0, 0.28);
@@ -839,7 +839,7 @@ hr {
   bottom: -28px;
   width: 113px;
   height: 109px;
-  background: url('../img/mask.png') no-repeat;
+  background: url('../images/mask.png') no-repeat;
   z-index: 2; }
 
 /* Vent stack module
@@ -1099,10 +1099,10 @@ h1 {
     margin: 15px 0 15px 20px; }
   .project .intro blockquote {
     margin: 60px 0;
-    background: url('../img/quote-left.png') no-repeat; }
+    background: url('../images/quote-left.png') no-repeat; }
     .project .intro blockquote p {
       padding: 0 40px;
-      background: url('../img/quote-right.png') no-repeat right bottom;
+      background: url('../images/quote-right.png') no-repeat right bottom;
       font-size: 18px;
       font-style: italic; }
   .project .intro .figure {
@@ -1140,7 +1140,7 @@ h1 {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('../img/logo.png');
+  background-image: url('../images/logo.png');
   background-repeat: no-repeat;
   background-position: 0 0;
   width: 269px;
@@ -1239,7 +1239,7 @@ h1 {
       float: left;
       margin-right: 20px;
       width: 460px;
-      background-image: url('../img/vcard-icon.png'); }
+      background-image: url('../images/vcard-icon.png'); }
       * html #about .downloads .vcard {
         overflow-x: hidden; }
     #about .downloads .resume {
@@ -1247,7 +1247,7 @@ h1 {
       float: left;
       margin-right: 0;
       width: 460px;
-      background-image: url('../img/resume-icon.png'); }
+      background-image: url('../images/resume-icon.png'); }
       * html #about .downloads .resume {
         overflow-x: hidden; }
 
@@ -1283,141 +1283,141 @@ h1 {
     position: relative;
     width: 380px; }
     #contact .social .picasa {
-      background-image: url(../img/social/picasa.png); }
+      background-image: url(../images/social/picasa.png); }
     #contact .social .qik {
-      background-image: url(../img/social/qik.png); }
+      background-image: url(../images/social/qik.png); }
     #contact .social .xing {
-      background-image: url(../img/social/xing.png); }
+      background-image: url(../images/social/xing.png); }
     #contact .social .designmoo {
-      background-image: url(../img/social/designmoo.png); }
+      background-image: url(../images/social/designmoo.png); }
     #contact .social .windows {
-      background-image: url(../img/social/windows.png); }
+      background-image: url(../images/social/windows.png); }
     #contact .social .gamespot {
-      background-image: url(../img/social/gamespot.png); }
+      background-image: url(../images/social/gamespot.png); }
     #contact .social .digg {
-      background-image: url(../img/social/digg.png); }
+      background-image: url(../images/social/digg.png); }
     #contact .social .newsvine {
-      background-image: url(../img/social/newsvine.png); }
+      background-image: url(../images/social/newsvine.png); }
     #contact .social .yahoobuzz {
-      background-image: url(../img/social/yahoobuzz.png); }
+      background-image: url(../images/social/yahoobuzz.png); }
     #contact .social .linkedin {
-      background-image: url(../img/social/linkedin.png); }
+      background-image: url(../images/social/linkedin.png); }
     #contact .social .komodomedia_wood {
-      background-image: url(../img/social/komodomedia_wood.png); }
+      background-image: url(../images/social/komodomedia_wood.png); }
     #contact .social .sharethis {
-      background-image: url(../img/social/sharethis.png); }
+      background-image: url(../images/social/sharethis.png); }
     #contact .social .designfloat {
-      background-image: url(../img/social/designfloat.png); }
+      background-image: url(../images/social/designfloat.png); }
     #contact .social .plurk {
-      background-image: url(../img/social/plurk.png); }
+      background-image: url(../images/social/plurk.png); }
     #contact .social .apple {
-      background-image: url(../img/social/apple.png); }
+      background-image: url(../images/social/apple.png); }
     #contact .social .mynameise {
-      background-image: url(../img/social/mynameise.png); }
+      background-image: url(../images/social/mynameise.png); }
     #contact .social .reddit {
-      background-image: url(../img/social/reddit.png); }
+      background-image: url(../images/social/reddit.png); }
     #contact .social .googletalk {
-      background-image: url(../img/social/googletalk.png); }
+      background-image: url(../images/social/googletalk.png); }
     #contact .social .vimeo {
-      background-image: url(../img/social/vimeo.png); }
+      background-image: url(../images/social/vimeo.png); }
     #contact .social .readernaut {
-      background-image: url(../img/social/readernaut.png); }
+      background-image: url(../images/social/readernaut.png); }
     #contact .social .lastfm {
-      background-image: url(../img/social/lastfm.png); }
+      background-image: url(../images/social/lastfm.png); }
     #contact .social .technorati {
-      background-image: url(../img/social/technorati.png); }
+      background-image: url(../images/social/technorati.png); }
     #contact .social .flickr {
-      background-image: url(../img/social/flickr.png); }
+      background-image: url(../images/social/flickr.png); }
     #contact .social .delicious {
-      background-image: url(../img/social/delicious.png); }
+      background-image: url(../images/social/delicious.png); }
     #contact .social .dribbble {
-      background-image: url(../img/social/dribbble.png); }
+      background-image: url(../images/social/dribbble.png); }
     #contact .social .brightkite {
-      background-image: url(../img/social/brightkite.png); }
+      background-image: url(../images/social/brightkite.png); }
     #contact .social .yahoo {
-      background-image: url(../img/social/yahoo.png); }
+      background-image: url(../images/social/yahoo.png); }
     #contact .social .deviantart {
-      background-image: url(../img/social/deviantart.png); }
+      background-image: url(../images/social/deviantart.png); }
     #contact .social .mobileme {
-      background-image: url(../img/social/mobileme.png); }
+      background-image: url(../images/social/mobileme.png); }
     #contact .social .facebook {
-      background-image: url(../img/social/facebook.png); }
+      background-image: url(../images/social/facebook.png); }
     #contact .social .youtube {
-      background-image: url(../img/social/youtube.png); }
+      background-image: url(../images/social/youtube.png); }
     #contact .social .friendfeed {
-      background-image: url(../img/social/friendfeed.png); }
+      background-image: url(../images/social/friendfeed.png); }
     #contact .social .cargo {
-      background-image: url(../img/social/cargo.png); }
+      background-image: url(../images/social/cargo.png); }
     #contact .social .bebo {
-      background-image: url(../img/social/bebo.png); }
+      background-image: url(../images/social/bebo.png); }
     #contact .social .paypal {
-      background-image: url(../img/social/paypal.png); }
+      background-image: url(../images/social/paypal.png); }
     #contact .social .evernote {
-      background-image: url(../img/social/evernote.png); }
+      background-image: url(../images/social/evernote.png); }
     #contact .social .wordpress {
-      background-image: url(../img/social/wordpress.png); }
+      background-image: url(../images/social/wordpress.png); }
     #contact .social .netvibes {
-      background-image: url(../img/social/netvibes.png); }
+      background-image: url(../images/social/netvibes.png); }
     #contact .social .ember {
-      background-image: url(../img/social/ember.png); }
+      background-image: url(../images/social/ember.png); }
     #contact .social .google_voice {
-      background-image: url(../img/social/google_voice.png); }
+      background-image: url(../images/social/google_voice.png); }
     #contact .social .myspace {
-      background-image: url(../img/social/myspace.png); }
+      background-image: url(../images/social/myspace.png); }
     #contact .social .google {
-      background-image: url(../img/social/google.png); }
+      background-image: url(../images/social/google.png); }
     #contact .social .roboto {
-      background-image: url(../img/social/roboto.png); }
+      background-image: url(../images/social/roboto.png); }
     #contact .social .twitter {
-      background-image: url(../img/social/twitter.png); }
+      background-image: url(../images/social/twitter.png); }
     #contact .social .playstation {
-      background-image: url(../img/social/playstation.png); }
+      background-image: url(../images/social/playstation.png); }
     #contact .social .email {
-      background-image: url(../img/social/email.png); }
+      background-image: url(../images/social/email.png); }
     #contact .social .posterous {
-      background-image: url(../img/social/posterous.png); }
+      background-image: url(../images/social/posterous.png); }
     #contact .social .pandora {
-      background-image: url(../img/social/pandora.png); }
+      background-image: url(../images/social/pandora.png); }
     #contact .social .rss {
-      background-image: url(../img/social/rss.png); }
+      background-image: url(../images/social/rss.png); }
     #contact .social .grooveshark {
-      background-image: url(../img/social/grooveshark.png); }
+      background-image: url(../images/social/grooveshark.png); }
     #contact .social .aim {
-      background-image: url(../img/social/aim.png); }
+      background-image: url(../images/social/aim.png); }
     #contact .social .komodomedia_azure {
-      background-image: url(../img/social/komodomedia_azure.png); }
+      background-image: url(../images/social/komodomedia_azure.png); }
     #contact .social .openid {
-      background-image: url(../img/social/openid.png); }
+      background-image: url(../images/social/openid.png); }
     #contact .social .mixx {
-      background-image: url(../img/social/mixx.png); }
+      background-image: url(../images/social/mixx.png); }
     #contact .social .ilike {
-      background-image: url(../img/social/ilike.png); }
+      background-image: url(../images/social/ilike.png); }
     #contact .social .zootool {
-      background-image: url(../img/social/zootool.png); }
+      background-image: url(../images/social/zootool.png); }
     #contact .social .dopplr {
-      background-image: url(../img/social/dopplr.png); }
+      background-image: url(../images/social/dopplr.png); }
     #contact .social .viddler {
-      background-image: url(../img/social/viddler.png); }
+      background-image: url(../images/social/viddler.png); }
     #contact .social .tumblr {
-      background-image: url(../img/social/tumblr.png); }
+      background-image: url(../images/social/tumblr.png); }
     #contact .social .stumbleupon {
-      background-image: url(../img/social/stumbleupon.png); }
+      background-image: url(../images/social/stumbleupon.png); }
     #contact .social .google_wave {
-      background-image: url(../img/social/google_wave.png); }
+      background-image: url(../images/social/google_wave.png); }
     #contact .social .virb {
-      background-image: url(../img/social/virb.png); }
+      background-image: url(../images/social/virb.png); }
     #contact .social .yelp {
-      background-image: url(../img/social/yelp.png); }
+      background-image: url(../images/social/yelp.png); }
     #contact .social .blogger {
-      background-image: url(../img/social/blogger.png); }
+      background-image: url(../images/social/blogger.png); }
     #contact .social .orkut {
-      background-image: url(../img/social/orkut.png); }
+      background-image: url(../images/social/orkut.png); }
     #contact .social .skype {
-      background-image: url(../img/social/skype.png); }
+      background-image: url(../images/social/skype.png); }
     #contact .social .gowalla {
-      background-image: url(../img/social/gowalla.png); }
+      background-image: url(../images/social/gowalla.png); }
     #contact .social .forrst {
-      background-image: url(../img/social/forrst.png); }
+      background-image: url(../images/social/forrst.png); }
     #contact .social .tooltip {
       position: absolute;
       margin-top: -10px; }

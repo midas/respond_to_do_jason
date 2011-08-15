@@ -1,0 +1,32 @@
+%script#tooltip-tpl{:type => "text/html"}
+  %span.tooltip
+    %b.arrow
+    %span.content Back To Home
+
+%script#filter-tpl{:type => "text/html"}
+  .filter
+    %b
+    %ul
+      %li.active Everything
+      %li Web Design
+      %li Print Design
+      %li Photography
+    %span.thumb
+      %b
+      %span
+
+%script#pagination-tpl{:type => "text/html"}
+  %span.pagination
+    %span.prev
+    %span.num
+    %span.next
+
+%script#indicators-tpl{:type => "text/html"}
+  .indicators
+    %span.progress Sending message...
+    %span.success Message sent successfully
+    %span.error Error sending message
+
+= javascript_include_tag 'jquery.min', 'underscore.min', 'backbone.min', 'jquery-css-transform', 'jquery-animate-css-rotate-scale'
+= javascript_include_tag 'jquery.quicksand', 'jquery.slider', 'jquery.lava', 'jquery.gmaps', 'jquery.h5f', 'interactivevalidation.js'
+= javascript_include_tag 'model', 'router', 'view', 'bootstrap'

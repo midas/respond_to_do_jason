@@ -1,0 +1,49 @@
+%article#contact.page
+  %header
+    .container
+      %h1.title Contact Me
+
+  .container
+    %section.info
+      %h1 Contact Information
+      %dl
+        %dt.phone Phone
+        %dd.phone 408-486-2000
+        %dt.address Address
+        %dd.address 2701 San Tomas Expressway Santa Clara, CA 95050
+
+    %section.social
+      %h1 Social Networks
+      %ul
+        %li.email
+          %a{:href => "mailto:john.doe@example.com"} john.doe@example.com
+        %li.twitter
+          %a{:href => "#example"} Follow me on Twitter
+        %li.facebook
+          %a{:href => "#example"} Follow me on Facebook
+        %li.linkedin
+          %a{:href => "#example"} Check me out on LinkedIn
+        %li.skype
+          %a{:href => "#example"} Contact me on Skype
+        %li.flickr
+          %a{:href => "#example"} View my pics on Flickr
+
+    %section.map
+      %figure
+
+    %section.form
+      %h1 Contact Form
+      %form{:action => "php/mail.php", :method => "post"}
+        %p.single-line
+          %label{:for => "contact-form-name"} Name
+          %input#contact-form-name{:name => "name", :required => "", :type => "text"}/
+        %p.single-line
+          %label{:for => "contact-form-email"} Email
+          %input#contact-form-email{:name => "email", :required => "", :type => "email"}/
+        %p.multi-line
+          %textarea{:name => "message", :required => ""}
+        .buttons
+          %button{:type => "submit"}
+            %span
+              %b
+              %span Send
