@@ -20,34 +20,11 @@
     %section.skills
       %h1 My Skills
       %dl
-        %dt Ruby / Rails
-        %dd
-          %b
-          %span 90
-        %dt C#
-        %dd
-          %b
-          %span 80
-        %dt Java
-        %dd
-          %b
-          %span 70
-        %dt JavaScript
-        %dd
-          %b
-          %span 85
-        %dt CSS
-        %dd
-          %b
-          %span 60
-        %dt HTML
-        %dd
-          %b
-          %span 70
-        %dt SQL
-        %dd
-          %b
-          %span 85
+        - Skill.all.each do |skill|
+          %dt=skill.name
+          %dd
+            %b
+            %span=skill.proficiency
 
     %section.downloads
       %h1 Downloads
