@@ -7,26 +7,22 @@
     %section.info
       %h1 Contact Information
       %dl
-        %dt.phone Phone
-        %dd.phone 408-486-2000
         %dt.address Address
-        %dd.address 2701 San Tomas Expressway Santa Clara, CA 95050
+        %dd.address Somewhere, The Woodlands, TX
 
     %section.social
       %h1 Social Networks
       %ul
-        %li.email
-          %a{:href => "mailto:john.doe@example.com"} john.doe@example.com
-        %li.twitter
-          %a{:href => "#example"} Follow me on Twitter
-        %li.facebook
-          %a{:href => "#example"} Follow me on Facebook
         %li.linkedin
-          %a{:href => "#example"} Check me out on LinkedIn
-        %li.skype
-          %a{:href => "#example"} Contact me on Skype
-        %li.flickr
-          %a{:href => "#example"} View my pics on Flickr
+          = link_to 'Check me out on LinkedIn', linked_in_public_profile_path, :target => '_linked_in'
+        %li.twitter
+          = link_to 'Follow me on Twitter', twitter_public_profile_path, :target => '_twitter'
+        %li.working-with-rails
+          =link_to 'Check me out on Working with Rails', working_with_rails_public_profile_path, :target => '_working_with_rails'
+        %li.oh-loh
+          =link_to 'Check me out on Oh-Loh', oh_loh_public_profile_path, :target => '_oh_loh'
+        %li.lastfm
+          = link_to 'Follow me on Last.FM', last_fm_public_profile_path, :target => '_last_fm'
 
     %section.map
       %figure
