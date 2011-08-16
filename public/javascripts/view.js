@@ -136,7 +136,7 @@ var PageView = View.extend({
 		if (oldPage) {
 			// Animate if active sect hasn't changed and app has inited
 			this.show(!options.sectChanged && app.inited);
-		}		
+		}
 	},
 
 	deactivate: function(oldPage, newPage, options) {
@@ -160,7 +160,7 @@ var PageView = View.extend({
 			var $img = $(img);
 			$img.attr('src', $img.data('src'));
 		});
-		
+
 		this.loadImages = noop;
 		next();
 	},
@@ -192,7 +192,7 @@ var PageView = View.extend({
 		var $el = $(this.el);
 
 		if (animate) {
-			$el.fadeOut('fast', _.after($el.length, next));			
+			$el.fadeOut('fast', _.after($el.length, next));
 		} else {
 			$el.hide();
 			next();
@@ -225,7 +225,7 @@ var PageView = View.extend({
 
 		if(!$tooltip.is(':visible')) {
 			$tooltip.animate({
-				opacity: 'show', 
+				opacity: 'show',
 				marginRight: '-=5'
 			}, 'fast');
 		}
@@ -234,7 +234,7 @@ var PageView = View.extend({
 	hideTooltip: function() {
 		var $tooltip = this.$('.tooltip');
 
-		if($tooltip.is(':visible')) {		
+		if($tooltip.is(':visible')) {
 			$tooltip.animate({
 				opacity: 'hide',
 				marginRight: '+=5'
@@ -250,12 +250,14 @@ var HSectView = SectView.extend({
 		next();
 	}
 });
+
 var HomeView = PageView.extend({
 	setTitle: function(next) {
 		document.title = App.title;
 		next();
 	}
 });
+
 var AboutView = PageView.extend({
 	init: function() {
 		var $el = $(this.el);
@@ -293,6 +295,7 @@ var PSectView = SectView.extend({
 		next();
 	}
 });
+
 var PortfolioView = PageView.extend({
 	initialize: function() {
 		PageView.prototype.initialize.apply(this, arguments);
@@ -328,13 +331,13 @@ var PortfolioView = PageView.extend({
 			var className = '.' + App.txt2name($li.text());
 			var $filtered = $clone.children($li.index() == 0 ?
 				'' : className);
-			
+
 			$thumbnails.quicksand($filtered, {
 				adjustHeight: 'dynamic',
 				attribute: function(item) {
 					return $('a', item).attr('href');
 				}
-			});	
+			});
 		});
 	},
 
@@ -350,6 +353,7 @@ var PortfolioView = PageView.extend({
 		next();
 	}
 });
+
 var ProjectView = PageView.extend({
 	activate: function(oldPage, newPage, options) {
 		this.setTitle();
@@ -443,7 +447,7 @@ var ProjectView = PageView.extend({
 		} else {
 			$el.show();
 			next();
-		}		
+		}
 	},
 
 	// Call next() immediately
@@ -472,12 +476,13 @@ var ProjectView = PageView.extend({
 			});
 
 			next();
-		} else {			
+		} else {
 			$el.hide();
 			next();
-		}		
+		}
 	}
 });
+
 var ProjNavView = PageView.extend({
 	initialize: function() {
 		PageView.prototype.initialize.apply(this, arguments);
@@ -511,7 +516,7 @@ var ProjNavView = PageView.extend({
 			// If change from portfolio page
 			if (oldPage.view instanceof PortfolioView) {
 				this.changeClass();
-				this.init(index);				
+				this.init(index);
 				this.show('slideIn', index, animate);
 
 			// If change from project page
@@ -571,7 +576,7 @@ var ProjNavView = PageView.extend({
 			$el.css({marginTop: -$el.outerHeight()}).show();
 			this.activateThumbnail(index);
 			$el.animate({marginTop: 0}, next);
-		} else {			
+		} else {
 			$el.show();
 			this.activateThumbnail(index);
 			next();
@@ -589,21 +594,22 @@ var ProjNavView = PageView.extend({
 				$el.hide().css({marginTop: 0});
 				next();
 			});
-		} else {			
+		} else {
 			$el.hide();
 			next();
-		}		
+		}
 	}
 });
 
 var CSectView = SectView.extend({
-	init: function() {		
+	init: function() {
 		// Add nav button
 		$('#nav .about')
 			.clone().toggleClass('about contact-back')
 			.show().appendTo('#nav ul');
 	}
 });
+
 var ContactView = PageView.extend({
 	events: {
 		'mouseover .social li': 'showTooltip',
@@ -684,10 +690,10 @@ var ContactView = PageView.extend({
 		$tooltip.css({right: 0});
 		var topOffset = $li.position().top - $tooltip.outerHeight()
 			- $arrow.height()
-		var leftOffset = $li.position().left + $li.width() / 2;	
+		var leftOffset = $li.position().left + $li.width() / 2;
 		var totalWidth = $li.parent().width() - parseInt($li.css('marginLeft'));
 		var rightOffset = totalWidth - leftOffset
-		
+
 		var tooltipWidth = $tooltip.outerWidth()
 
 		$tooltip.css({top: topOffset});
@@ -704,14 +710,14 @@ var ContactView = PageView.extend({
 		}
 
 		$tooltip.stop(true, true).animate({
-			opacity: 'show', 
+			opacity: 'show',
 			marginTop: '+=5'
 		}, 'fast');
 	},
 
 	hideTooltip: function(event) {
 		var $tooltip = this.$('.tooltip');
-	
+
 		$tooltip.animate({
 			opacity: 'hide',
 			marginTop: '-=5'
