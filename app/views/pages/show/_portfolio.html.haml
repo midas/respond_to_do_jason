@@ -1,0 +1,668 @@
+%article#portfolio.page
+  / Project Overview (project pages reuse this to display top nav)
+  %header.overview-mode
+    .container
+      %h1.title Portfolio
+      %nav.proj-nav
+        %h1 Project Overview
+        %ul.thumbnails
+          / Individual Project Thumbnail
+          %li.photography
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/layout-test"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Layout Test
+          / Individual Project Thumbnail
+          %li.web-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/appstorm"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title AppStorm
+          %li.web-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/envato"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Envato
+          %li.web-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/tuts-plus"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Tuts Plus
+          %li.photography
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/flowers"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Flowers
+          %li.web-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/freelance-switch"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Freelance Switch
+          %li.web-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/rockable"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Rockable
+          %li.web-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/creattica"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Creattica
+          %li.print-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/rockable-book"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Rockable Book
+          %li.print-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/rockable-card"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Rockable Card
+          %li.photography
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/black-&-white"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Black & White
+          %li.print-design
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/graphicriver-leaflet"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Graphicriver Leaflet
+          %li.photography
+            %figure.thumbnail
+              %a.image{:href => "#/portfolio/landscapes"}
+                %img{"data-src" => "images/thumbnail-blank.png"}/
+              %figcaption.title Landscapes
+  / Project Overview
+  / Individual Project Page
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Layout Test
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Photograhpy
+        %dl
+          %dt Location
+          %dd Mindo, Pichincha
+        %dl
+          %dt Camera
+          %dd Canon PowerShot A710 IS
+        %dl
+          %dt Date
+          %dd 2010.7.17
+      %section.intro
+        %h1 Introduction
+        %p
+          This is a
+          %strong layout test
+          which shows off
+          %em different elements
+          a project can
+          = succeed "contain." do
+            %del breed
+        %h2 1/2
+        .container
+          .span-6
+            %p It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          .span-6.last
+            %p Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        %h2 1/4
+        .container
+          .span-3
+            %p It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+          .span-3
+            %p Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          .span-3
+            %p It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          .span-3.last
+            %p Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        .container
+          .span-4
+            %h2 Ordered List
+            %ol
+              %li Quisque adipiscing hendrerit ipsum, sed accumsan dui porttitor vitae.
+              %li Sed malesuada nunc sit amet nisi commodo faucibus.
+              %li Phasellus eu erat id risus auctor hendrerit.
+              %li Pellentesque vitae tortor ac tortor lobortis hendrerit a ut purus.
+          .span-4
+            %h2 Unordered List
+            %ul
+              %li Fusce suscipit purus eget est ullamcorper blandit.
+              %li Nunc in libero at velit adipiscing feugiat sit amet eu lectus.
+              %li Vestibulum vulputate tellus sit amet neque dignissim ultricies.
+              %li Nulla bibendum vulputate purus, et mollis nisl tempus sed.
+              %li Ut vitae lacus sit amet urna fringilla venenatis.
+          .span-4.last
+            %h2 Definition List
+            %dl
+              %dt Curabitur vitae
+              %dd Vestibulum ornare tortor eu purus laoreet scelerisque.
+              %dt Sed consequat
+              %dd Pellentesque tristique purus vitae purus dapibus placerat.
+              %dt Duis consequat est
+              %dd Curabitur eu neque et elit suscipit dictum.
+        .container
+          .span-3
+            %h3 Heading 3
+            %p Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          .span-3
+            %h4 Heading 4
+            %p Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          .span-3
+            %h5 Heading 5
+            %p Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          .span-3.last
+            %h6 Heading 6
+            %p Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        %blockquote
+          %p A video of a chimpanzee armed with AK-47 rifle has gone viral on YouTube and has become an Internet sensation.
+        .figure
+          / Individual Figure
+          .wrapper
+            %figure
+              %img{"data-src" => "images/snapshot-blank.png"}
+                %figcaption.title Ape with AK-47
+          / Individual Figure
+        %h2
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Animal", "data-src" => "images/snapshot-blank.png"}
+                %figcaption
+                  %a{:href => "http://www.flickr.com/photos/epsos/4883281674/"} Cute Dog Puppy
+                  by
+                  %a{:href => "http://www.flickr.com/photos/epsos/"} epSos.de
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Animal", "data-src" => "images/snapshot-blank.png"}
+                %figcaption
+                  %a{:href => "http://www.flickr.com/photos/epsos/4924530313/"} Beautiful Blonde Horse Stud
+                  by
+                  %a{:href => "http://www.flickr.com/photos/epsos/"} epSos.de
+  / Individual Project Page
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title AppStorm
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Web Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://appstorm.net"} http://appstorm.net
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p Developed by Envato, AppStorm is a app blog that brings you reviews, how-to's and roundups of iPhone, Mac and Web Apps!
+        %p Computers have quickly become the focus of much of our time, so it makes sense to try to get the most out of them. The AppStorm network of blogs reviews, rounds up, and writes up apps for platforms like Mac OSX, the iPhone, iPad and the web.
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "AppStorm", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "AppStorm", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "AppStorm", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Envato
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Web Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://envato.com"} http://envato.com
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p Envato is a startup based out of Australia with people around the world and sites serving pages every second. We started in a living room in 2006 and have been steadily working to build our company into a world-class contender. Our background is creative, we love open source, we believe that work is about way more than just making money, and we’re totally committed to making products that are awesome!
+        %p Our mission is to help people to earn and to learn, online. We operate marketplaces where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn creative skills.
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Envato", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Envato", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Envato", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Tuts Plus
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Web Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://tutsplus.com"} http://tutsplus.com
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p
+          At Envato we’re very passionate about education, that’s why we’ve created one of the most popular networks of educational blogs around. Tuts+ serves up over 18 million pageviews a month across its many subsites on subjects like
+          = succeed "," do
+            %a{:href => "http://psd.tutsplus.com"} graphics
+          = succeed "," do
+            %a{:href => "http://net.tutsplus.com"} web development
+          = succeed "," do
+            %a{:href => "http://audio.tutsplus.com"} audio production
+          %a{:href => "http://mobile.tutsplus.com"} iPhone development
+          and
+          = succeed "." do
+            %a{:href => "http://ae.tutsplus.com"} motion graphics
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Tuts Plus", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Envato", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Envato", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Flowers
+    .container
+      %section.details
+        %h1 Flowers
+        %dl
+          %dt Category
+          %dd Photograhpy
+        %dl
+          %dt Location
+          %dd San Luis Obispo County, California, US
+        %dl
+          %dt Camera
+          %dd Canon EOS-1D Mark III
+        %dl
+          %dt Date
+          %dd 2010.4.10
+      %section.intro
+        %h1 Introduction
+        %p
+          These are some flower photos by
+          %a{:href => "http://www.flickr.com/photos/mikebaird/"} mikebaird
+        %p
+          The first photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/mikebaird/4509514539/"} here
+          The second photo is from
+          = succeed "." do
+            %a{:href => "hhttp://www.flickr.com/photos/mikebaird/4510152438/"} here
+          The third photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/mikebaird/4510154358/"} here
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Flower", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Flower", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Flower", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Freelance Switch
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Web Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://freelanceswitch.com"} http://freelanceswitch.com
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p Working from home as a freelancer can be very isolating. That’s why we created FreelanceSwitch, a forums, blog, podcast, job board and directory where freelancers can share advice, chat, find work and be a part of a larger freelance community. The site has won blogging awards, been featured in numerous places and is the leading blog on freelancing.
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Freelance Switch", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Freelance Switch", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Freelance Switch", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Rockable
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Web Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://rockablepress.com"} http://rockablepress.com
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p When a few staff at Envato decided to write up a book on freelancing we decided to turn it into a whole series of books and publish them ourselves. Rockable Press is our fledgling online publishing brand and sells books, minibooks and reports.
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Creattica
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Web Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://creattica.com"} http://creattica.com
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p Creattica is a gallery of inspirational design work of all varieties from 3d to advertising, business cards to web design and of course our most popular category – logos! Submissions come from our community of creatives and are hand picked for showcasing on the gallery to ensure only the finest work is on display.
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Creattica", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Creattica", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Creattica", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Rockable Book
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Print Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://rockablepress.com"} http://rockablepress.com
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p Covering everything from getting started to expanding your business, How to Be a Rockstar Freelancer is the official FreelanceSwitch book. Written by Collis & Cyan Ta’eed – the founders of the site – it’s packed with new information, advice and insights not covered on the blog.
+        %p If you want to start your freelance career the right way, then How to Be a Rockstar Freelancer will give you everything you need to become the best freelancer in town!
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable Book", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable Book", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable Book", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Rockable Card
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Print Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://rockablepress.com"} http://rockablepress.com
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p Covering everything from getting started to expanding your business, How to Be a Rockstar Freelancer is the official FreelanceSwitch book. Written by Collis & Cyan Ta’eed – the founders of the site – it’s packed with new information, advice and insights not covered on the blog.
+        %p If you want to start your freelance career the right way, then How to Be a Rockstar Freelancer will give you everything you need to become the best freelancer in town!
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable Card", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable Card", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Rockable Card", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Black & White
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Photograhpy
+        %dl
+          %dt Location
+          %dd Higashichikuma-gun, Nagano Prefecture, JP
+        %dl
+          %dt Camera
+          %dd Fujifilm FinePix F30
+        %dl
+          %dt Date
+          %dd 2008.9.23
+      %section.intro
+        %h1 Introduction
+        %p
+          These are some black & white photos by
+          %a{:href => "http://www.flickr.com/photos/jamespaullong/"} ricoeurian
+        %p
+          The first photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/jamespaullong/290903509/"} here
+          The second photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/jamespaullong/164875156/"} here
+          The third photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/jamespaullong/181011544/"} here
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Graphicriver Leaflet", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Graphicriver Leaflet", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Graphicriver Leaflet", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Graphicriver Leaflet
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Print Design
+        %dl
+          %dt URL
+          %dd
+            %a{:href => "http://graphicriver.net"} http://graphicriver.net
+        %dl
+          %dt Client
+          %dd Envato
+        %dl
+          %dt Date
+          %dd 2011.6
+      %section.intro
+        %h1 Introduction
+        %p Buy royalty free stock graphics and vectors, icon sets and Photoshop add-ons from GraphicRiver, a huge marketplace of great files.
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Graphicriver Leaflet", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Graphicriver Leaflet", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Graphicriver Leaflet", "data-src" => "images/snapshot-blank.png"}/
+  %article.project
+    %header
+      .container
+        %a.back{:href => "#/portfolio"} Back to Portfolio
+        %h1.title Landscapes
+    .container
+      %section.details
+        %h1 Details
+        %dl
+          %dt Category
+          %dd Photograhpy
+        %dl
+          %dt Location
+          %dd Higashichikuma-gun, JP
+        %dl
+          %dt Camera
+          %dd Fujifilm FinePix F30
+        %dl
+          %dt Date
+          %dd 2008.9.23
+      %section.intro
+        %h1 Introduction
+        %p
+          These are some landscape photos by
+          %a{:href => "http://www.flickr.com/photos/zoutedrop/"} zoutedrop
+        %p
+          The first photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/zoutedrop/4659434724/"} here
+          The second photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/zoutedrop/4659433298/"} here
+          The third photo is from
+          = succeed "." do
+            %a{:href => "http://www.flickr.com/photos/zoutedrop/3055849607/"} here
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Landscape", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Landscape", "data-src" => "images/snapshot-blank.png"}/
+        .figure
+          .wrapper
+            %figure
+              %img{:alt => "Landscape", "data-src" => "images/snapshot-blank.png"}/
